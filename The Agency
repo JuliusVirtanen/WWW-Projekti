@@ -12,11 +12,7 @@
 </head>
 
 <body>
-body {background-image: http://fav.me/dbpphpo("comics"); 
-  background-repeat: no-repeat; 
-  background-position: right top;
-  background-attachment: fixed;
-  }
+
 <header role="banner">
 <h1> The Agency </h1>
 <nav role="navigation">
