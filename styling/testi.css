@@ -37,6 +37,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
  header, article, aside, footer {
     border: 1px solid #111;
+    border-style: hidden;
     padding: 10px 1em;
     margin: 0 5% 10px;
     color: #fff;
