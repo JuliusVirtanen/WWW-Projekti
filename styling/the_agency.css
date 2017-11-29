@@ -2,5 +2,16 @@
 
 body {
   background-image: url(../images/TheAgency.jpg);
-  background-size: cover;
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+article {
+  color: MidnightBlue;
+
+}
+
+footer {
+  color: Teal;
 }
