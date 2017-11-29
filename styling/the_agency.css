@@ -1,6 +1,7 @@
 ﻿/* taustakuva */
 
 body {
+  background-color: powderblue;
   background-image: url(../images/TheAgency.jpg);
   background-size: auto;
   background-position: top;
