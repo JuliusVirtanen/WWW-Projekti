@@ -100,8 +100,6 @@ header {
 /* taustakuva */
 
 body {
-  background-image: url(../images/The Agency.jpg);
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+  background-image: url(../images/TheAgency.jpg);
+  background-size: cover
 }
