@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-  <title> Superior Stickmen </title>
+  <title> product </title>
+  <meta name="description" content="the agency comic">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <!-- [if lt IE 9]>
@@ -11,6 +12,7 @@
 
   <link rel="stylesheet" href="styling/mainstyling.css">
   <link rel="stylesheet" href="styling/navigation.css">
+  <link rel="stylesheet" href="styling/halkaBox.min.css">
 </head>
 
 <body>
@@ -28,16 +30,34 @@
 
 
   <article>
+
+    <a href="images/theagency.jpg" class="hb-single" title="The Agency"><img src="images/theagency-small.jpg"></a>
+
     <p>
-      Here, we make it possible to enjoy reading Superior Stickmen and <a href="the-agency.html"> The Agency </a> while both series' are in development, as well to read the older episodes from the series Superior Stickmen is a comic series created by
+      Here, we make it possible to enjoy reading Superior Stickmen and The Agency while both series' are in development, as well to read the older episodes from the series Superior Stickmen is a comic series created by
       a single hobbyist artist, which is associated as being an agent/superhero parody, while it's rip-off from the same creator is more realistic version. Superior Stickmen doesn't tackle any real world problems, since real world problems are boring
       and dumb
+    </p>
+
+    <p>
+      The Agency is a spin-off title of Superior Stickmen with more realistic tone, similar to mostly unknown and unpublished series known as Codename: Gecko.<br> The Agency actually was inspired by the Codename: Gecko comics, which were inspired by Superior
+      Stickmen, and the whole confusing history is available to be read<br>From here:
+      <a href="https://docs.google.com/document/d/1ImNIDEl05CnW_VcetD8FnRUDGO8JFS9gyg7oLvkSPxs/edit?usp=sharing" target="_blank"> Superior Stickmen/The Agency development & characters </a>
     </p>
   </article>
 
   <footer role="contentinfo">
     <p> &copy; 2017 Frostburn </p>
   </footer>
+
+  <script src="js/halkaBox.min.js"></script>
+  <script type="text/javascript">
+    halkaBox.options({
+      hideButtons: true,  // hide buttons on touch devices (true || false)
+      theme: "dark",     // lightbox overlay theme ("light" || "dark")
+    });
+    halkaBox.run("hb-single");
+  </script>
 
 </body>
 

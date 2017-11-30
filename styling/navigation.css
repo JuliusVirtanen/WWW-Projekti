@@ -1,4 +1,5 @@
-ul.topnav {  list-style-type: none;
+ul.topnav {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -29,6 +30,9 @@ ul.topnav li.right {
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right, ul.topnav li {
+    float: none;
+  }
+  .hb-single {
     float: none;
   }
 }
