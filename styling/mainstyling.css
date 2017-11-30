@@ -92,7 +92,7 @@ a:hover {
 header, article, aside, footer {
   border: 1px solid #111;
   border-style: hidden;
-  padding: 10px 1em;
+  padding: 30px 3em;
   margin: 0 5% 10px;
   color: #fff;
 }
@@ -125,8 +125,10 @@ header {
   text-shadow: none;
 }
 
-.hb-single {
+.thumbnail {
   float: right;
+  width: 300px;
   height: auto;
   max-width: 100%;
+  margin-left: 20px;
 }
