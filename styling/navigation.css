@@ -32,7 +32,8 @@ ul.topnav li.right {
   ul.topnav li.right, ul.topnav li {
     float: none;
   }
-  .hb-single {
+  .thumbnail {
     float: none;
+    margin-left: 0px;
   }
 }
